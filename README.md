@@ -100,7 +100,7 @@ Metrics are reported from the paper (*Separating Clicks from Baits*, WebConf 202
 | **Claude 3.5 Sonnet** | **93.8%** | 91.5% | Dynamic Few-Shot |
 | GPT-4o-mini | 84.8% | 82.2% | Dynamic Few-Shot |
 | Gemini 1.5 Flash | 82.8% | 74.8% | Zero-Shot |
-| GPT-4o | 78.6% | 77.3% | — |
+| GPT-4o | 78.6% | 77.3% | Zero-Shot |
 
 **Key metrics at best configuration** (from paper):
 
@@ -143,10 +143,10 @@ Metrics computed from the OpenAI Evals JSONL logs using GPT-4o-mini as chain-of-
 
 | Model | Zero-Shot | Fixed Few-Shot | Dynamic Few-Shot |
 |-------|:---------:|:--------------:|:----------------:|
-| Claude 3.5 Sonnet | 89.2%* | — | **93.8%*** |
-| GPT-4o-mini | — | — | **84.8%*** |
-| Gemini 1.5 Flash | **82.8%*** | — | — |
-| GPT-4o | — | — | **78.6%*** |
+| Claude 3.5 Sonnet | 89.2%* | 91.4%* | **93.8%*** |
+| GPT-4o-mini | 79.5%* | 82.3%* | **84.8%*** |
+| Gemini 1.5 Flash | **82.8%*** | 70.5%* | 71.0%* |
+| GPT-4o | **78.6%*** | 76.6%* | 76.5%* |
 | Qwen-VL | 64.6% | 66.3% | **74.0%** |
 | LLaVA-1.5 | 36.1% | 56.0% | **67.4%** |
 
