@@ -1,0 +1,18 @@
+[2026-04-16 11:45:21,936] [oaieval.py:278] Found 2699/2699 sampling events with usage data
+[2026-04-16 11:45:21,936] [oaieval.py:230] Failed to add token usage to result: unsupported operand type(s) for +: 'int' and 'CompletionTokensDetails'. Eval results will be reported and are not affected.
+[2026-04-16 11:45:21,937] [record.py:371] Final report: {'counts/CORRECT': 905, 'counts/FailOther': 412, 'counts/FailContext': 1173, 'counts/INCOMPREHENSIBLE': 190, 'counts/FailFabrication': 7, 'counts/FailSafety': 2, 'counts/FailHallucination': 5, 'counts/FailCelebrity': 5}. Logged to /tmp/evallogs/260416063148XGXVS3MP_gpt-4o-mini_llava-zero-shot-eval.v1.jsonl
+[2026-04-16 11:45:21,937] [oaieval.py:236] Final report:
+[2026-04-16 11:45:21,937] [oaieval.py:238] counts/CORRECT: 905
+[2026-04-16 11:45:21,937] [oaieval.py:238] counts/FailOther: 412
+[2026-04-16 11:45:21,937] [oaieval.py:238] counts/FailContext: 1173
+[2026-04-16 11:45:21,937] [oaieval.py:238] counts/INCOMPREHENSIBLE: 190
+[2026-04-16 11:45:21,937] [oaieval.py:238] counts/FailFabrication: 7
+[2026-04-16 11:45:21,937] [oaieval.py:238] counts/FailSafety: 2
+[2026-04-16 11:45:21,937] [oaieval.py:238] counts/FailHallucination: 5
+[2026-04-16 11:45:21,937] [oaieval.py:238] counts/FailCelebrity: 5
+[2026-04-16 11:45:21,941] [record.py:360] Logged 98 rows of events to /tmp/evallogs/260416063148XGXVS3MP_gpt-4o-mini_llava-zero-shot-eval.v1.jsonl: insert_time=2.746ms
+
+
+
+ LLaVA has a "Null Response" rate of approximately 8.7% ($259/2958$ samples).
+ "Due to inference-level failures in the LLaVA-1.5 architecture, 259 samples were excluded from the final diagnostic comparison to ensure a valid accuracy metric.".

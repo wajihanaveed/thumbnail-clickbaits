@@ -1,0 +1,11 @@
+[2026-04-16 10:46:00,981] [oaieval.py:278] Found 2958/2958 sampling events with usage data
+[2026-04-16 10:46:00,987] [oaieval.py:230] Failed to add token usage to result: unsupported operand type(s) for +: 'int' and 'CompletionTokensDetails'. Eval results will be reported and are not affected.
+[2026-04-16 10:46:00,987] [record.py:371] Final report: {'counts/CORRECT': 1909, 'counts/FailContext': 821, 'counts/FailOther': 223, 'counts/FailFabrication': 3, 'counts/INCOMPREHENSIBLE': 1, 'counts/FailHallucination': 1}. Logged to /tmp/evallogs/260416053231ZCFX5CKO_gpt-4o-mini_qwen-zero-shot-eval.v1.jsonl
+[2026-04-16 10:46:00,987] [oaieval.py:236] Final report:
+[2026-04-16 10:46:00,987] [oaieval.py:238] counts/CORRECT: 1909
+[2026-04-16 10:46:00,987] [oaieval.py:238] counts/FailContext: 821
+[2026-04-16 10:46:00,987] [oaieval.py:238] counts/FailOther: 223
+[2026-04-16 10:46:00,987] [oaieval.py:238] counts/FailFabrication: 3
+[2026-04-16 10:46:00,988] [oaieval.py:238] counts/INCOMPREHENSIBLE: 1
+[2026-04-16 10:46:00,988] [oaieval.py:238] counts/FailHallucination: 1
+[2026-04-16 10:46:00,989] [record.py:360] Logged 16 rows of events to /tmp/evallogs/260416053231ZCFX5CKO_gpt-4o-mini_qwen-zero-shot-eval.v1.jsonl: insert_time=0.818ms

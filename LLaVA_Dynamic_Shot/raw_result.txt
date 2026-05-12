@@ -1,0 +1,13 @@
+[2026-04-19 21:17:03,272] [oaieval.py:278] Found 2946/2946 sampling events with usage data
+[2026-04-19 21:17:03,273] [oaieval.py:230] Failed to add token usage to result: unsupported operand type(s) for +: 'int' and 'CompletionTokensDetails'. Eval results will be reported and are not affected.
+[2026-04-19 21:17:03,273] [record.py:371] Final report: {'counts/CORRECT': 1983, 'counts/FailContext': 806, 'counts/FailOther': 120, 'counts/FailHallucination': 12, 'counts/FailFabrication': 1, 'counts/INCOMPREHENSIBLE': 5, 'counts/FailCelebrity': 17, 'counts/FailSafety': 2}. Logged to /tmp/evallogs/260419160057I2NLWJS5_gpt-4o-mini_llava-dynamic-eval.v1.jsonl
+[2026-04-19 21:17:03,273] [oaieval.py:236] Final report:
+[2026-04-19 21:17:03,273] [oaieval.py:238] counts/CORRECT: 1983
+[2026-04-19 21:17:03,273] [oaieval.py:238] counts/FailContext: 806
+[2026-04-19 21:17:03,273] [oaieval.py:238] counts/FailOther: 120
+[2026-04-19 21:17:03,273] [oaieval.py:238] counts/FailHallucination: 12
+[2026-04-19 21:17:03,273] [oaieval.py:238] counts/FailFabrication: 1
+[2026-04-19 21:17:03,273] [oaieval.py:238] counts/INCOMPREHENSIBLE: 5
+[2026-04-19 21:17:03,273] [oaieval.py:238] counts/FailCelebrity: 17
+[2026-04-19 21:17:03,273] [oaieval.py:238] counts/FailSafety: 2
+[2026-04-19 21:17:03,276] [record.py:360] Logged 92 rows of events to /tmp/evallogs/260419160057I2NLWJS5_gpt-4o-mini_llava-dynamic-eval.v1.jsonl: insert_time=2.455ms

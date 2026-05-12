@@ -1,0 +1,12 @@
+[2026-04-16 17:11:31,530] [oaieval.py:278] Found 2600/2600 sampling events with usage data
+[2026-04-16 17:11:31,530] [oaieval.py:230] Failed to add token usage to result: unsupported operand type(s) for +: 'int' and 'CompletionTokensDetails'. Eval results will be reported and are not affected.
+[2026-04-16 17:11:31,531] [record.py:371] Final report: {'counts/CORRECT': 1342, 'counts/FailOther': 404, 'counts/FailContext': 634, 'counts/INCOMPREHENSIBLE': 205, 'counts/FailFabrication': 4, 'counts/FailCelebrity': 6, 'counts/FailSafety': 4, 'counts/FailHallucination': 1}. Logged to /tmp/evallogs/2604160700033OSOGSB6_gpt-4o-mini_llava-fixed-shot-eval.v1.jsonl
+[2026-04-16 17:11:31,531] [oaieval.py:236] Final report:
+[2026-04-16 17:11:31,531] [oaieval.py:238] counts/CORRECT: 1342
+[2026-04-16 17:11:31,531] [oaieval.py:238] counts/FailOther: 404
+[2026-04-16 17:11:31,531] [oaieval.py:238] counts/FailContext: 634
+[2026-04-16 17:11:31,531] [oaieval.py:238] counts/INCOMPREHENSIBLE: 205
+[2026-04-16 17:11:31,531] [oaieval.py:238] counts/FailFabrication: 4
+[2026-04-16 17:11:31,531] [oaieval.py:238] counts/FailCelebrity: 6
+[2026-04-16 17:11:31,531] [oaieval.py:238] counts/FailSafety: 4
+[2026-04-16 17:11:31,531] [oaieval.py:238] counts/FailHallucination: 1

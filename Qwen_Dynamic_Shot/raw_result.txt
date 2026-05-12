@@ -1,0 +1,12 @@
+[2026-04-19 01:27:12,872] [oaieval.py:278] Found 2958/2958 sampling events with usage data
+[2026-04-19 01:27:12,874] [oaieval.py:230] Failed to add token usage to result: unsupported operand type(s) for +: 'int' and 'CompletionTokensDetails'. Eval results will be reported and are not affected.
+[2026-04-19 01:27:12,874] [record.py:371] Final report: {'counts/CORRECT': 2188, 'counts/FailContext': 725, 'counts/FailOther': 39, 'counts/FailHallucination': 3, 'counts/INCOMPREHENSIBLE': 1, 'counts/FailFabrication': 1, 'counts/FailSafety': 1}. Logged to /tmp/evallogs/2604182011406BYVKGRH_gpt-4o-mini_qwen-dynamic-eval.v1.jsonl
+[2026-04-19 01:27:12,874] [oaieval.py:236] Final report:
+[2026-04-19 01:27:12,874] [oaieval.py:238] counts/CORRECT: 2188
+[2026-04-19 01:27:12,874] [oaieval.py:238] counts/FailContext: 725
+[2026-04-19 01:27:12,874] [oaieval.py:238] counts/FailOther: 39
+[2026-04-19 01:27:12,874] [oaieval.py:238] counts/FailHallucination: 3
+[2026-04-19 01:27:12,874] [oaieval.py:238] counts/INCOMPREHENSIBLE: 1
+[2026-04-19 01:27:12,874] [oaieval.py:238] counts/FailFabrication: 1
+[2026-04-19 01:27:12,874] [oaieval.py:238] counts/FailSafety: 1
+[2026-04-19 01:27:12,875] [record.py:360] Logged 16 rows of events to /tmp/evallogs/2604182011406BYVKGRH_gpt-4o-mini_qwen-dynamic-eval.v1.jsonl: insert_time=0.645ms
