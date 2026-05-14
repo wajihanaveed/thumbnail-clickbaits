@@ -52,8 +52,8 @@ Example misleading thumbnails:
 ## Models
 
 ### Proprietary VLMs
-| Model | Version | API | Videos Processed |
-|-------|---------|-----|:----------------:|
+| Model | Version |
+|-------|---------|
 | **Claude 3.5 Sonnet** | `claude-3-5-sonnet@20240620` |
 | **Gemini 1.5 Flash** | `gemini-1.5-flash-001` |
 | **GPT-4o-mini** | `gpt-4o-mini-2024-07-18` |
