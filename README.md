@@ -182,18 +182,6 @@ Evaluations use the **OpenAI Evals** framework with GPT-4o-mini as a chain-of-th
 {run_timestamp}_{judge_model}_{subject_model}-{strategy}-eval.v1.jsonl
 ```
 
-| File | Subject | Strategy | Judge Accuracy | n |
-|------|---------|----------|:--------------:|:-:|
-| `*_llava-zero-shot-eval.v1.jsonl` | LLaVA-1.5 | Zero-Shot | 33.5% | 2,699 |
-| `*_llava-fixed-shot-eval.v1.jsonl` | LLaVA-1.5 | Fixed Few-Shot | 51.6% | 2,600 |
-| `*_llava-dynamic-eval.v1.jsonl` | LLaVA-1.5 | Dynamic Few-Shot | 67.3% | 2,946 |
-| `*_qwen-zero-shot-eval.v1.jsonl` | Qwen-VL | Zero-Shot | 64.5% | 2,958 |
-| `*_qwen-diagnostic-eval.v1(fixed).jsonl` | Qwen-VL | Fixed Few-Shot | 66.3% | 2,958 |
-| `*_qwen-dynamic-eval.v1.jsonl` | Qwen-VL | Dynamic Few-Shot | 74.0% | 2,958 |
-
-> Raw JSONL results for Claude and Gemini are not included in this repository.
-
-> Judge accuracy (GPT-4o-mini as evaluator) may differ slightly from paper-reported accuracy (direct output parsing). The full per-video results and country-level breakdowns are in [`Results.jpg`](Results.jpg).
 
 ---
 
