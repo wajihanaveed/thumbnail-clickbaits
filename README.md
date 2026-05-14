@@ -54,18 +54,17 @@ Example misleading thumbnails:
 ### Proprietary VLMs
 | Model | Version | API | Videos Processed |
 |-------|---------|-----|:----------------:|
-| **Claude 3.5 Sonnet** | `claude-3-5-sonnet@20240620` | Anthropic Vertex AI | 2,759 |
-| **Gemini 1.5 Flash** | `gemini-1.5-flash-001` | Google Vertex AI | 2,135 |
-| **GPT-4o-mini** | `gpt-4o-mini-2024-07-18` | OpenAI API | 2,769 |
-| **GPT-4o** | `gpt-4o-2024-05-13` | OpenAI API | 2,749 |
+| **Claude 3.5 Sonnet** | `claude-3-5-sonnet@20240620` |
+| **Gemini 1.5 Flash** | `gemini-1.5-flash-001` |
+| **GPT-4o-mini** | `gpt-4o-mini-2024-07-18` |
+| **GPT-4o** | `gpt-4o-2024-05-13` |
 
-> Gemini processed fewer videos due to strict safety filters (PROHIBITED_CONTENT, SAFETY, RECITATION). GPT models used 12Labs-generated video descriptions since they lack direct video input.
 
 ### Open-Source VLMs
-| Model | Videos Evaluated | Notes |
-|-------|:----------------:|-------|
-| **LLaVA-1.5** | 2,699 | ~8.7% null-response rate; 259 samples excluded |
-| **Qwen-VL** | 2,958 | Full dataset evaluated |
+| Model |
+|-------|
+| **LLaVA-1.5** |
+| **Qwen-VL** |
 
 ---
 
@@ -121,21 +120,21 @@ Metrics computed from the OpenAI Evals JSONL logs using GPT-4o-mini as chain-of-
 
 #### LLaVA-1.5
 
-| Prompt Strategy | Accuracy | Precision | Recall | Specificity | n |
-|-----------------|:--------:|:---------:|:------:|:-----------:|:-:|
-| Zero-Shot | 36.1% | 38.7% | 67.2% | 9.6% | 2,509 |
-| Fixed Few-Shot | 56.0% | 51.1% | 44.3% | 65.6% | 2,395 |
-| Dynamic Few-Shot | **67.4%** | **65.0%** | **76.5%** | **58.3%** | 2,941 |
+| Prompt Strategy | Accuracy | Precision | Recall | Specificity |
+|-----------------|:--------:|:---------:|:------:|:-----------:|
+| Zero-Shot | 36.1% | 38.7% | 67.2% | 9.6% |
+| Fixed Few-Shot | 56.0% | 51.1% | 44.3% | 65.6% |
+| Dynamic Few-Shot | **67.4%** | **65.0%** | **76.5%** | **58.3%** |
 
 > Zero-shot LLaVA almost always predicts "Misleading" (recall 67%, specificity only 10%), indicating a strong positive bias. Few-shot examples substantially rebalance this behaviour.
 
 #### Qwen-VL
 
-| Prompt Strategy | Accuracy | Precision | Recall | Specificity | n |
-|-----------------|:--------:|:---------:|:------:|:-----------:|:-:|
-| Zero-Shot | 64.6% | 64.6% | 64.8% | 64.3% | 2,957 |
-| Fixed Few-Shot | 66.3% | 66.3% | 66.6% | 66.0% | 2,958 |
-| Dynamic Few-Shot | **74.0%** | **74.0%** | **74.2%** | **73.8%** | 2,957 |
+| Prompt Strategy | Accuracy | Precision | Recall | Specificity |
+|-----------------|:--------:|:---------:|:------:|:-----------:|
+| Zero-Shot | 64.6% | 64.6% | 64.8% | 64.3% |
+| Fixed Few-Shot | 66.3% | 66.3% | 66.6% | 66.0% |
+| Dynamic Few-Shot | **74.0%** | **74.0%** | **74.2%** | **73.8%** |
 
 > Qwen-VL maintains a near-balanced confusion matrix across all strategies (precision ≈ recall ≈ specificity), suggesting it does not exhibit a systematic labeling bias.
 
