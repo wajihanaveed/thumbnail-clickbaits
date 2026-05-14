@@ -153,23 +153,6 @@ Metrics computed from the OpenAI Evals JSONL logs using GPT-4o-mini as chain-of-
 
 Dynamic few-shot prompting consistently improves accuracy for all models. Open-source models show the largest absolute gains from zero-shot to dynamic (+31.3 pp for LLaVA-1.5, +9.4 pp for Qwen-VL).
 
-#### LLaVA Visualizations
-
-| Condition | Visualization |
-|-----------|---------------|
-| All strategies | ![LLaVA All](LLaVA_All.png) |
-| Fixed vs. Zero-shot | ![LLaVA Fixed vs Zero](LLaVA_fixed_vs_zero.png) |
-
-Per-strategy breakdowns: [`LLaVA_Zero_Shot/`](LLaVA_Zero_Shot/), [`LLaVA_Fixed_Shot/`](LLaVA_Fixed_Shot/), [`LLaVA_Dynamic_Shot/`](LLaVA_Dynamic_Shot/)
-
-#### Qwen Visualizations
-
-| Condition | Visualization |
-|-----------|---------------|
-| All strategies | ![Qwen All](Qwen_All.png) |
-| Fixed vs. Zero-shot | ![Qwen Fixed vs Zero](Qwen_fixed_vs_zero.png) |
-
-Per-strategy breakdowns: [`Qwen_Zero_Shot/`](Qwen_Zero_Shot/), [`Qwen_Fixed_Shot/`](Qwen_Fixed_Shot/), [`Qwen_Dynamic_Shot/`](Qwen_Dynamic_Shot/)
 
 ---
 
